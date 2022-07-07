@@ -480,7 +480,8 @@ def simulator_screen(instrucciones: list):
     decrement_velocity = Button(image=None, pos=(30, alto/2), 
                             text_input="-", font=get_font(40), base_color="White", hovering_color="Green")
 
-    reemplazos = fallos = 0
+    fallos = 0
+    reemplazos = -len(marcos_libres)
 
     ram = RowTable(pos = (720.5, 60), numCol= 2, color = "white", render_size=(None, 35*5), headers=['Marc', 'Pag'], numRow=len(marcos_libres), header_color=(57,4,94))
 
@@ -593,7 +594,6 @@ def simulator_screen(instrucciones: list):
                         if ram.rows[i][0] == marco:
                             ram.rows[i][1] = str(pagina)
                             break
-                if swap_out:
                     reemplazos += 1
                 
                 file.write("En el milisegundo " + str(instruccion + 1) + " la dirección lógica " + str(instrucciones[instruccion][0]) + " ingresó en la página " + str(pagina) + ", marco #" + str(marco) + ". Además, su dirección física correspondiente es " + str(pc.direccion_fisica(instrucciones[instruccion][0], int(tam_marco))) + ((" y hubo swap in" + (" y swap out " if swap_out else '') ) if swap_in else '') + '\n')
@@ -628,7 +628,7 @@ def simulator_screen(instrucciones: list):
         OPTIONS_RECT = OPTIONS_TEXT.get_rect(center=(159 -48, 300))
         SCREEN.blit(OPTIONS_TEXT, OPTIONS_RECT)
 
-        OPTIONS_TEXT = get_font(20).render("Reemplazos: " + str(reemplazos), True, "white")
+        OPTIONS_TEXT = get_font(20).render("Reemplazos: " + str(max(0,reemplazos)), True, "white")
         OPTIONS_RECT = OPTIONS_TEXT.get_rect(center=(492 -48, 300))
         SCREEN.blit(OPTIONS_TEXT, OPTIONS_RECT)
 

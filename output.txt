@@ -1,0 +1,20 @@
+En el milisegundo 1 la dirección lógica 21 ingresó en la página 5, marco #1. Además, su dirección física correspondiente es 5 y hubo swap in
+En el milisegundo 2 la dirección lógica 26 ingresó en la página 6, marco #0. Además, su dirección física correspondiente es 2 y hubo swap in
+En el milisegundo 3 la dirección lógica 25 ingresó en la página 6, marco #0. Además, su dirección física correspondiente es 1
+En el milisegundo 4 la dirección lógica 6 ingresó en la página 1, marco #1. Además, su dirección física correspondiente es 6 y hubo swap in
+En el milisegundo 5 la dirección lógica 5 ingresó en la página 1, marco #1. Además, su dirección física correspondiente es 5
+En el milisegundo 6 la dirección lógica 29 ingresó en la página 7, marco #0. Además, su dirección física correspondiente es 1 y hubo swap in y swap out 
+En el milisegundo 7 la dirección lógica 4 ingresó en la página 1, marco #1. Además, su dirección física correspondiente es 4
+En el milisegundo 8 la dirección lógica 5 ingresó en la página 1, marco #1. Además, su dirección física correspondiente es 5
+En el milisegundo 9 la dirección lógica 17 ingresó en la página 4, marco #0. Además, su dirección física correspondiente es 1 y hubo swap in
+En el milisegundo 10 la dirección lógica 16 ingresó en la página 4, marco #0. Además, su dirección física correspondiente es 0
+En el milisegundo 11 la dirección lógica 24 ingresó en la página 6, marco #1. Además, su dirección física correspondiente es 4 y hubo swap in y swap out 
+En el milisegundo 12 la dirección lógica 25 ingresó en la página 6, marco #1. Además, su dirección física correspondiente es 5
+En el milisegundo 13 la dirección lógica 4 ingresó en la página 1, marco #0. Además, su dirección física correspondiente es 0 y hubo swap in y swap out 
+En el milisegundo 14 la dirección lógica 7 ingresó en la página 1, marco #0. Además, su dirección física correspondiente es 3
+En el milisegundo 15 la dirección lógica 21 ingresó en la página 5, marco #1. Además, su dirección física correspondiente es 5 y hubo swap in y swap out 
+En el milisegundo 16 la dirección lógica 1 ingresó en la página 0, marco #0. Además, su dirección física correspondiente es 1 y hubo swap in y swap out 
+En el milisegundo 17 la dirección lógica 14 ingresó en la página 3, marco #1. Además, su dirección física correspondiente es 6 y hubo swap in y swap out 
+En el milisegundo 18 la dirección lógica 15 ingresó en la página 3, marco #1. Además, su dirección física correspondiente es 7
+En el milisegundo 19 la dirección lógica 21 ingresó en la página 5, marco #0. Además, su dirección física correspondiente es 1 y hubo swap in y swap out 
+En el milisegundo 20 la dirección lógica 22 ingresó en la página 5, marco #0. Además, su dirección física correspondiente es 2
